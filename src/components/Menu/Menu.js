@@ -1,4 +1,5 @@
 import React from 'react';
+
 //styles
 import './menu.scss';
 
@@ -18,6 +19,7 @@ return (
        <Inbox className="icon" />
        <Explore className="icon" />
        <Notifications className="icon" />
+       {/* profileInconComponent */}
     </div>
 )
 }
