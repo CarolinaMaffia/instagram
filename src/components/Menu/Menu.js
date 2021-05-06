@@ -1,5 +1,8 @@
 import React from 'react';
 
+//components
+import ProfileIcon from '../ProfileIcon/ProfileIcon';
+
 //styles
 import './menu.scss';
 
@@ -8,6 +11,7 @@ import { ReactComponent as Home } from '../images/home.svg'
 import { ReactComponent as Inbox } from '../images/inbox.svg'
 import { ReactComponent as Explore } from '../images/navigation.svg'
 import { ReactComponent as Notifications } from '../images/notifications.svg'
+import image from '../images/profilepic.jpg';
 
 
 
@@ -19,7 +23,7 @@ return (
        <Inbox className="icon" />
        <Explore className="icon" />
        <Notifications className="icon" />
-       {/* profileInconComponent */}
+       <ProfileIcon iconSize='small' image={image} storyBorder />
     </div>
 )
 }
