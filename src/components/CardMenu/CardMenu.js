@@ -8,7 +8,7 @@ import { ReactComponent as Bookmark } from '../images/bookmark.svg';
 const CardMenu = () => {
     return (
         <div className="cardMenu">
-            <div className="interacions">
+            <div className="interactions">
                 <Notifications className="icon" />
                 <Comments className="icon" />
                 <Inbox className="icon" />
